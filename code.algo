@@ -1,0 +1,13 @@
+    procedure Sort(t)
+    var
+            t : ARRAY_OF INTEGER[];
+                j,i,kes:integer;
+    for i from 1 to length(t) - 1 do
+            kes = t[i]
+            j = i - 1
+                while (j >= 0 and t[j] > key) do
+                t[j + 1] = t[j]
+                j = j - 1
+            t[j + 1] = kes
+    end for
+    end 
